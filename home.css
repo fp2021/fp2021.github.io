@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+body{
+
+	margin:0;
+	padding:0 0 100px 0;
+	width:100%;
+	height: 100%;
+	overflow-y: scroll;
+
+	display: flex;
+	/*font-family: 'Open Sans', sans-serif;*/
+	font-family: 'Poppins', sans-serif;
+
+	justify-content: center;
+	align-items: center;
+
+	flex-direction: column;
+
+}
+
+.header{
+	width: 85%;
+	border-bottom:1px solid #DDD;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+	margin:40px 0px 20px 0px;
+
+}
+
+.heading{
+	/*text-align: center;*/
+	/*margin:30px;*/
+	font-size: 24px;
+	text-decoration: none;
+	color: #000;
+}
+
+.nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.nav-link{
+	margin:5px 10px 5px 10px;
+	font-size: 15px;
+	color:#000;
+}
+
+.title{
+	width:50%;
+	text-align: center;
+	margin:30px;
+	font-size: 50px;
+}
+
+.subtitle{
+	text-align: center;
+	margin:10px;
+	font-size: 17px;
+}
+
+.transbutton{
+	margin:20px;
+	padding:10px;
+	border:1px solid #000;
+	border-radius: 4px;
+	color:#000;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+.usecase-holder{
+	width:80%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
